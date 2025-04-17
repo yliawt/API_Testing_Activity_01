@@ -31,4 +31,3 @@ Partial Update Object Name Using PATCH
     ${updated_json}=       Convert String To Json    ${updated_response.content}
     Should Be Equal        ${updated_json["name"]}    Apple MacBook Pro 16 (Updated Name)
     Log    Updated Object: ${updated_json}    console=True
-
